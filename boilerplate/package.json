@@ -1,0 +1,40 @@
+{
+  "name": "egg-{{name}}",
+  "version": "1.0.0",
+  "description": "{{description}}",
+  "eggPlugin": {
+    "name": "{{name}}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:eggjs/egg-{{name}}.git"
+  },
+  "keywords": [
+    "egg",
+    "plugin"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "egg-ci": "1",
+    "egg-bin": "1",
+    "egg": "1",
+    "egg-mock": "1",
+    "autod": "2",
+    "eslint": "3",
+    "eslint-config-egg": "3",
+    "should": "8",
+    "supertest": "1"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "test": "npm run lint && npm run test-local",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "lint": "eslint --ext js . --fix",
+    "ci": "npm run lint && npm run cov",
+    "autod": "autod"
+  },
+  "author": "{{author}}"
+}
