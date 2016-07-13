@@ -12,10 +12,7 @@ describe('test/plugin.test.js',() => {
 
   let app;
   before(() => {
-    app = mm.app({
-      baseDir: 'pluginName',
-      plugin: 'pluginName',
-    });
+    app = mm.app({ baseDir: 'app-name' });
   });
 
   afterEach(mm.restore);

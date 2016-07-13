@@ -36,5 +36,8 @@
     "ci": "npm run lint && npm run cov",
     "autod": "autod"
   },
+  "ci": {
+    "version": "4, 6"
+  },
   "author": "{{author}}"
 }
