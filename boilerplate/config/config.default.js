@@ -1,5 +1,5 @@
 'use strict';
 
-exports.pluginName = {
+exports.{{name}} = {
 
 };

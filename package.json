@@ -1,14 +1,11 @@
 {
-  "name": "@ali/egg-boilerplate-plugin",
-  "version": "1.0.6",
-  "description": "适用于 Egg 插件的脚手架",
-  "homepage": "http://gitlab.alipay-inc.com/chair/egg-boilerplate-plugin",
+  "name": "egg-boilerplate-plugin",
+  "version": "1.0.0",
+  "description": "boilerplate for egg plugin",
+  "homepage": "https://github.com/eggjs/egg-boilerplate-plugin",
   "repository": {
     "type": "git",
-    "url": "git@gitlab.alipay-inc.com:chair/egg-boilerplate-plugin.git"
+    "url": "git@github.com:eggjs/egg-boilerplate-plugin.git"
   },
-  "publishConfig": {
-    "registry": "http://registry.npm.alibaba-inc.com"
-  },
-  "author": "贯高 <guangao@alipay.com>"
+  "author": "dead_horse"
 }
