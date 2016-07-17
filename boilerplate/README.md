@@ -11,7 +11,7 @@
 [npm-url]: https://npmjs.org/package/egg-{{name}}
 [travis-image]: https://img.shields.io/travis/eggjs/egg-{{name}}.svg?style=flat-square
 [travis-url]: https://travis-ci.org/eggjs/egg-{{name}}
-[codecov-image]: https://codecov.io/github/eggjs/egg-{{name}}/coverage.svg?branch=master
+[codecov-image]: https://img.shields.io/codecov/c/github/eggjs/egg-{{name}}.svg?style=flat-square
 [codecov-url]: https://codecov.io/github/eggjs/egg-{{name}}?branch=master
 [david-image]: https://img.shields.io/david/eggjs/egg-{{name}}.svg?style=flat-square
 [david-url]: https://david-dm.org/eggjs/egg-{{name}}

@@ -5,10 +5,6 @@
   "eggPlugin": {
     "name": "{{name}}"
   },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:eggjs/egg-{{name}}.git"
-  },
   "keywords": [
     "egg",
     "plugin"
@@ -39,5 +35,14 @@
   "ci": {
     "version": "4, 6"
   },
-  "author": "{{author}}"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eggjs/egg-{{name}}.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eggjs/egg/issues"
+  },
+  "homepage": "https://github.com/eggjs/egg-{{name}}#readme",
+  "author": "{{author}}",
+  "license": "MIT"
 }
