@@ -5,7 +5,7 @@
  */
 
 const request = require('supertest');
-const mm = require('@ali/mm');
+const mm = require('egg-mock');
 const should = require('should');
 
 describe('test/plugin.test.js',() => {
