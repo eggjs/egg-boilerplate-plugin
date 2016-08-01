@@ -18,8 +18,8 @@
     "autod": "2",
     "eslint": "3",
     "eslint-config-egg": "3",
-    "should": "8",
-    "supertest": "1"
+    "should": "10",
+    "supertest": "2"
   },
   "engines": {
     "node": ">=4.0.0"
