@@ -1,5 +1,5 @@
 'use strict';
 
-module.exports = function(agent) {
+module.exports = agent => {
 
 };
