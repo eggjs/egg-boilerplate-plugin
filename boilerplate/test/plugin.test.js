@@ -2,22 +2,24 @@
 
 const request = require('supertest');
 const mm = require('egg-mock');
-const should = require('should');
 
-describe('test/plugin.test.js',() => {
+describe('test/plugin.test.js', () => {
   let app;
-  before(function* (){
+  before(() => {
     app = mm.app({
-      baseDir: 'plugin-test',
+      baseDir: 'apps/plugin-test',
     });
-    yield app.ready();
+    app.ready();
   });
+
+  after(() => app.close());
 
   afterEach(mm.restore);
 
-  it('should GET /', function* () {
-    yield request(app.callback())
+  it('should GET /', () => {
+    return request(app.callback())
     .get('/')
+    .expect('hi, egg')
     .expect(200);
   });
 

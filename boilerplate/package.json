@@ -11,14 +11,15 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "egg-ci": "1",
-    "egg-bin": "1",
-    "egg": "1",
-    "egg-mock": "1",
     "autod": "2",
+    "egg": "1",
+    "egg-bin": "1",
+    "egg-ci": "1",
+    "egg-mock": "1",
     "eslint": "3",
     "eslint-config-egg": "3",
-    "should": "10",
+    "intelli-espower-loader": "1",
+    "power-assert": "1",
     "supertest": "2"
   },
   "engines": {
@@ -26,8 +27,8 @@
   },
   "scripts": {
     "test": "npm run lint && npm run test-local",
-    "test-local": "egg-bin test",
-    "cov": "egg-bin cov",
+    "test-local": "egg-bin test -r intelli-espower-loader",
+    "cov": "egg-bin cov -r intelli-espower-loader",
     "lint": "eslint --ext js . --fix",
     "ci": "npm run lint && npm run cov",
     "autod": "autod"
