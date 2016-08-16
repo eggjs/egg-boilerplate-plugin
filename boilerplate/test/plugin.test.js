@@ -9,7 +9,7 @@ describe('test/plugin.test.js', () => {
     app = mm.app({
       baseDir: 'apps/plugin-test',
     });
-    app.ready();
+    return app.ready();
   });
 
   after(() => app.close());
