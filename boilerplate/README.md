@@ -27,7 +27,7 @@ Description here.
 ## Install
 
 ```bash
-$ npm i egg-{{name}}
+$ npm i egg-{{name}} --save
 ```
 
 ## Usage
