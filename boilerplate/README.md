@@ -32,9 +32,22 @@ $ npm i egg-{{name}} --save
 
 ## Usage
 
-<!--
-Usage, configuration and example here.
--->
+```js
+// {app_root}/config/plugin.js
+exports.{{name}} = {
+  package: 'egg-{{name}}',
+};
+```
+
+## Configuration
+
+```js
+// {app_root}/config/config.default.js
+exports.{{name}} = {
+};
+```
+
+## Example
 
 ## Questions & Suggestions
 
