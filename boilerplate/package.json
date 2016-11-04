@@ -9,6 +9,14 @@
     "egg",
     "plugin"
   ],
+  "files": [
+    "index.js",
+    "app.js",
+    "agent.js",
+    "config",
+    "app",
+    "lib"
+  ],
   "dependencies": {},
   "devDependencies": {
     "autod": "2",
