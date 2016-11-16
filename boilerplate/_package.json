@@ -9,14 +9,6 @@
     "egg",
     "plugin"
   ],
-  "files": [
-    "index.js",
-    "app.js",
-    "agent.js",
-    "config",
-    "app",
-    "lib"
-  ],
   "dependencies": {},
   "devDependencies": {
     "autod": "^2.7.1",
@@ -35,13 +27,21 @@
     "node": ">=4.0.0"
   },
   "scripts": {
-    "test": "npm run lint && npm run test-local",
+    "test": "npm run lint -- --fix && npm run test-local",
     "test-local": "egg-bin test -r intelli-espower-loader",
     "cov": "egg-bin cov -r intelli-espower-loader",
-    "lint": "eslint --ext js . --fix",
+    "lint": "eslint .",
     "ci": "npm run lint && npm run cov",
     "autod": "autod"
   },
+  "files": [
+    "index.js",
+    "app.js",
+    "agent.js",
+    "config",
+    "app",
+    "lib"
+  ],
   "ci": {
     "version": "4, 6, 7"
   },
