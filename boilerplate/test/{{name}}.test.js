@@ -3,11 +3,11 @@
 const request = require('supertest');
 const mm = require('egg-mock');
 
-describe('test/plugin.test.js', () => {
+describe('test/{{name}}.test.js', () => {
   let app;
   before(() => {
     app = mm.app({
-      baseDir: 'apps/plugin-test',
+      baseDir: 'apps/{{name}}-test',
     });
     return app.ready();
   });
