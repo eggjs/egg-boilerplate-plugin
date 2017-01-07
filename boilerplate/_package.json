@@ -7,7 +7,7 @@
   },
   "keywords": [
     "egg",
-    "plugin"
+    "egg-plugin"
   ],
   "dependencies": {},
   "devDependencies": {
