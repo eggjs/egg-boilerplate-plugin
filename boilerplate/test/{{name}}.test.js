@@ -13,14 +13,12 @@ describe('test/{{name}}.test.js', () => {
   });
 
   after(() => app.close());
-
   afterEach(mm.restore);
 
   it('should GET /', () => {
     return request(app.callback())
-    .get('/')
-    .expect('hi, {{name}}')
-    .expect(200);
+      .get('/')
+      .expect('hi, {{name}}')
+      .expect(200);
   });
-
 });
