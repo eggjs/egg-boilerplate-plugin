@@ -35,6 +35,7 @@ $ npm i egg-{{name}} --save
 ```js
 // {app_root}/config/plugin.js
 exports.{{name}} = {
+  enable: true,
   package: 'egg-{{name}}',
 };
 ```
@@ -47,7 +48,11 @@ exports.{{name}} = {
 };
 ```
 
+see [config/config.default.js](config/config.default.js) for more detail.
+
 ## Example
+
+<!-- example here -->
 
 ## Questions & Suggestions
 

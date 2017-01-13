@@ -1,5 +1,5 @@
 'use strict';
 
 module.exports = app => {
-  console.log('app.env =', app.env);
+  console.log('app.config.env =', app.config.env);
 };
