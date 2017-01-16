@@ -1,4 +1,11 @@
 
+1.7.0 / 2017-01-16
+==================
+
+  * feat: remove node 4.x support (#13)
+  * refactor: add zh_CN readme template (#12)
+  * test: update egg-bin and adjust assert (#11)
+
 1.6.0 / 2016-12-02
 ==================
 
