@@ -1,4 +1,11 @@
 
+1.7.1 / 2017-03-02
+==================
+
+  * chore: remove unneed autod r (#16)
+  * fix: ci with cookie sign key (#15)
+  * chore: update deps & license (#14)
+
 1.7.0 / 2017-01-16
 ==================
 
