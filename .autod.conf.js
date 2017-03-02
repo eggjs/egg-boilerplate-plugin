@@ -26,5 +26,4 @@ module.exports = {
   ],
   semver: [
   ],
-  registry: 'https://r.cnpmjs.org',
 };
