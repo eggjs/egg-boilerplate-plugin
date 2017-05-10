@@ -47,7 +47,7 @@ egg-{{name}} 版本 | egg 1.x
 
 ```js
 // config/plugin.js
-exports.{{name}} = {
+exports.{{pluginName}} = {
   enable: true,
   package: 'egg-{{name}}',
 };

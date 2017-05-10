@@ -34,7 +34,7 @@ $ npm i egg-{{name}} --save
 
 ```js
 // {app_root}/config/plugin.js
-exports.{{name}} = {
+exports.{{pluginName}} = {
   enable: true,
   package: 'egg-{{name}}',
 };
@@ -44,7 +44,7 @@ exports.{{name}} = {
 
 ```js
 // {app_root}/config/config.default.js
-exports.{{name}} = {
+exports.{{pluginName}} = {
 };
 ```
 
