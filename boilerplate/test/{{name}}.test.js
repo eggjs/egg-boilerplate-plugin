@@ -18,7 +18,7 @@ describe('test/{{name}}.test.js', () => {
   it('should GET /', () => {
     return request(app.callback())
       .get('/')
-      .expect('hi, {{name}}')
+      .expect('hi, {{pluginName}}')
       .expect(200);
   });
 });

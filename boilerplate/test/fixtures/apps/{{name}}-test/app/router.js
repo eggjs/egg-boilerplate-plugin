@@ -2,6 +2,6 @@
 
 module.exports = app => {
   app.get('/', function* () {
-    this.body = 'hi, ' + app.plugins['{{name}}'].name;
+    this.body = 'hi, ' + app.plugins.{{pluginName}}.name;
   });
 };

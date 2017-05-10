@@ -1,10 +1,10 @@
 'use strict';
 
 /**
- * {{name}} default config
- * @member Config#{{name}}
+ * egg-{{name}} default config
+ * @member Config#{{pluginName}}
  * @property {String} SOME_KEY - some description
  */
-exports.{{name}} = {
+exports.{{pluginName}} = {
 
 };
