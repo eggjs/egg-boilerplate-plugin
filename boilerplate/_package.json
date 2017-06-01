@@ -13,24 +13,26 @@
   "dependencies": {},
   "devDependencies": {
     "autod": "^2.8.0",
-    "egg": "^1.2.1",
-    "egg-bin": "^3.3.2",
+    "autod-egg": "^1.0.0",
+    "egg": "^1.4.0",
+    "egg-bin": "^3.4.0",
     "egg-ci": "^1.6.0",
-    "egg-mock": "^3.5.0",
+    "egg-mock": "^3.7.0",
     "eslint": "^3.19.0",
-    "eslint-config-egg": "^4.1.0",
+    "eslint-config-egg": "^4.2.0",
     "supertest": "^3.0.0",
-    "webstorm-disable-index": "^1.1.2"
+    "webstorm-disable-index": "^1.2.0"
   },
   "engines": {
     "node": ">=6.0.0"
   },
   "scripts": {
-    "test": "npm run lint -- --fix && npm run test-local",
+    "test": "npm run lint -- --fix && npm run pkgfiles && npm run test-local",
     "test-local": "egg-bin test",
     "cov": "egg-bin cov",
     "lint": "eslint .",
-    "ci": "npm run lint && npm run cov",
+    "ci": "npm run pkgfiles --check && npm run lint && npm run cov",
+    "pkgfiles": "egg-bin pkgfiles",
     "autod": "autod"
   },
   "files": [
@@ -42,7 +44,7 @@
     "lib"
   ],
   "ci": {
-    "version": "6, 7"
+    "version": "6, 8"
   },
   "repository": {
     "type": "git",
