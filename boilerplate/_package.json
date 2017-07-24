@@ -27,21 +27,18 @@
     "node": ">=6.0.0"
   },
   "scripts": {
-    "test": "npm run lint -- --fix && npm run pkgfiles && npm run test-local",
+    "test": "npm run lint -- --fix && egg-bin pkgfiles && npm run test-local",
     "test-local": "egg-bin test",
     "cov": "egg-bin cov",
     "lint": "eslint .",
-    "ci": "npm run pkgfiles --check && npm run lint && npm run cov",
+    "ci": "egg-bin pkgfiles --check && npm run lint && npm run cov",
     "pkgfiles": "egg-bin pkgfiles",
     "autod": "autod"
   },
   "files": [
-    "index.js",
     "app.js",
     "agent.js",
-    "config",
-    "app",
-    "lib"
+    "config"
   ],
   "ci": {
     "version": "6, 8"
