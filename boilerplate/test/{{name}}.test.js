@@ -1,22 +1,21 @@
 'use strict';
 
-const request = require('supertest');
-const mm = require('egg-mock');
+const mock = require('egg-mock');
 
 describe('test/{{name}}.test.js', () => {
   let app;
   before(() => {
-    app = mm.app({
+    app = mock.app({
       baseDir: 'apps/{{name}}-test',
     });
     return app.ready();
   });
 
   after(() => app.close());
-  afterEach(mm.restore);
+  afterEach(mock.restore);
 
   it('should GET /', () => {
-    return request(app.callback())
+    return app.httpRequest()
       .get('/')
       .expect('hi, {{pluginName}}')
       .expect(200);
