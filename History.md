@@ -1,4 +1,10 @@
 
+2.1.0 / 2019-02-15
+==================
+
+**others**
+  * [[`772164b`](http://github.com/eggjs/egg-boilerplate-plugin/commit/772164b6541a3f8d4c4524d43ce4d05ae8fa4745)] - chore: update tpl deps (#22) (fengmk2 <<fengmk2@gmail.com>>)
+
 2.0.0 / 2017-11-27
 ==================
 

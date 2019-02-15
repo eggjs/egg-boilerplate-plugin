@@ -1,6 +1,6 @@
 {
   "name": "egg-boilerplate-plugin",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "boilerplate for egg plugin",
   "homepage": "https://github.com/eggjs/egg-boilerplate-plugin",
   "bugs": "https://github.com/eggjs/egg/issues",
@@ -19,9 +19,7 @@
     "build": "egg-init dist --force --template=./ --silent",
     "install-deps": "cd dist && ../node_modules/.bin/npminstall autod-egg && ../node_modules/.bin/autod && ../node_modules/.bin/npminstall"
   },
-  "dependencies": {
-
-  },
+  "dependencies": {},
   "devDependencies": {
     "autod": "^3.0.1",
     "egg-ci": "^1.8.0",
