@@ -1,4 +1,13 @@
 
+2.2.0 / 2022-09-30
+==================
+
+**features**
+  * [[`5b5cc83`](http://github.com/eggjs/egg-boilerplate-plugin/commit/5b5cc831aba0137b17d7cf70c778925dee47a7c6)] - feat: update egg3 (#23) (TZ | 天猪 <<atian25@qq.com>>)
+
+**others**
+  * [[`b021dd0`](http://github.com/eggjs/egg-boilerplate-plugin/commit/b021dd0b01958aa1ef12a0c2bd30136401cf5ac7)] - chore: update travis (TZ | 天猪 <<atian25@qq.com>>)
+
 2.1.0 / 2019-02-15
 ==================
 
