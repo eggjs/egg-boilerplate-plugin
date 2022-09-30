@@ -2,11 +2,11 @@
 
 const mock = require('egg-mock');
 
-describe('test/{{name}}.test.js', () => {
+describe('test/index.test.js', () => {
   let app;
   before(() => {
     app = mock.app({
-      baseDir: 'apps/{{name}}-test',
+      baseDir: 'apps/example',
     });
     return app.ready();
   });
