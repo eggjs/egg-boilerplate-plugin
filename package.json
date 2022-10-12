@@ -16,7 +16,7 @@
     "test-boilerplate": "npm run build && npm run install-deps && cd dist && npm test",
     "ci-boilerplate": "npm run build && npm run install-deps && cd dist && npm run ci",
     "build": "egg-init dist --force --template=./ --silent",
-    "install-deps": "cd dist && ../node_modules/.bin/npminstall"
+    "install-deps": "cd dist && npx npminstall"
   },
   "dependencies": {},
   "devDependencies": {
