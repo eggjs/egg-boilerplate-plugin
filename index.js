@@ -1,5 +1,3 @@
-'use strict';
-
 module.exports = {
   name: {
     desc: 'package name(will publish to npm as egg-{name})',
