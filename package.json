@@ -14,19 +14,17 @@
     "test": "npm run lint -- --fix && npm run test-boilerplate",
     "ci": "npm run lint && npm run ci-boilerplate",
     "test-boilerplate": "npm run build && npm run install-deps && cd dist && npm test",
+    "test-boilerplate-from-cnpm": "npm run build && npm run install-deps-from-cnpm && cd dist && npm test",
     "ci-boilerplate": "npm run build && npm run install-deps && cd dist && npm run ci",
+    "ci-boilerplate-from-cnpm": "npm run build && npm run install-deps-from-cnpm && cd dist && npm run ci",
     "build": "egg-init dist --force --template=./ --silent",
-    "install-deps": "cd dist && npx npminstall"
+    "install-deps": "cd dist && npm i",
+    "install-deps-from-cnpm": "cd dist && cnpm i"
   },
   "dependencies": {},
   "devDependencies": {
-    "egg-ci": "^2",
-    "egg-init": "^2.3.1",
-    "eslint": "^8.24.0",
-    "eslint-config-egg": "^12.1.0",
-    "npminstall": "^6.5.1"
-  },
-  "ci": {
-    "version": "16"
+    "egg-init": "3",
+    "eslint": "8",
+    "eslint-config-egg": "14"
   }
 }
