@@ -1,3 +1,19 @@
+# Changelog
+
+## [3.0.0](https://github.com/eggjs/egg-boilerplate-plugin/compare/v2.2.0...v3.0.0) (2025-02-04)
+
+
+### ⚠ BREAKING CHANGES
+
+* drop Node.js < 18.19.0 support
+
+part of https://github.com/eggjs/egg/issues/3644
+
+https://github.com/eggjs/egg/issues/5257
+
+### Features
+
+* support cjs and esm both by tshy ([#26](https://github.com/eggjs/egg-boilerplate-plugin/issues/26)) ([52df3aa](https://github.com/eggjs/egg-boilerplate-plugin/commit/52df3aa773c2238f64fabbca13ca7a2c7a620e91))
 
 2.2.0 / 2022-09-30
 ==================
